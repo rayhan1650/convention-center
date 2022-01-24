@@ -367,7 +367,9 @@
 
       <!-- Frequently Asked Question -->
       <section>
-        <h2 class="text-center mt-5">Frequently Asked Question</h2>
+        <h2 class="text-center falcon-heading-color fw-bold mt-5">
+          Frequently Asked Question
+        </h2>
         <div class="row row-cols-1 row-cols-md-2">
           <!-- Accordion -->
           <div class="accordion p-4 col container-fluid" id="accordionExample">
@@ -505,7 +507,11 @@
 
           <!-- Accordion image  -->
           <div class="col p-4">
-            <img class="img-fluid" src="images/faq_sm.jpg" alt="" />
+            <picture>
+              <source type="image/webp" srcset="images/faq_sm.webp" />
+              <source type="image/jpg" srcset="images/faq_sm.jpg" />
+              <img class="img-fluid" src="images/faq_sm.jpg" alt="" />
+            </picture>
           </div>
         </div>
       </section>
