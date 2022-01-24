@@ -11,3 +11,7 @@ body {
 .falcon-heading-color {
   color: #0d0925;
 }
+
+.falcon-custom-radius {
+  border-radius: 25px;
+}
